@@ -1,0 +1,8 @@
+- type: job
+  id: Passenger
+  name: Гражданин
+  description: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!
+  playTimeTracker: JobPassenger
+  startingGear: Redcitizen
+  icon: "JobIconPassenger"
+  supervisors: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!

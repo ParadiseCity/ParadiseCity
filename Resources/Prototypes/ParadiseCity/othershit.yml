@@ -1,0 +1,237 @@
+- type: entity
+  id: PaperTencodesC
+  name: Тен-коды
+  noSpawn: true
+  suffix: Kelo
+  parent: Paper
+  components:
+  - type: Paper
+    content: |
+      10-0	Офицер ранен
+      10-1	Офицеру нужна помощь
+      10-4	Принято
+      10-6	Временно недоступен
+      10-7	Закончил смену
+      10-8	На смене
+      10-9	Повторите ваше сообщение
+      10-10	Потосовка
+      10-14	Похищение
+      10-15	 Подозреваемый в наручниках
+      10-19	 Возвращаюсь на станцию
+      10-20	Местоположение
+      10-27	Информация о человеке 
+      10-29	Запрос проверки ордеров
+      10-30	Подозреваемый в розыске 
+      10-32	Дополнительный юнит
+      10-41	Нужна медицинская помощь 
+      10-53	Человек ранен
+      10-66	Подозрительный человек
+      10-67	Человек зовет на помощь
+      10-71	Открыт огонь
+      10-80	Преследование
+      10-97	На ситуации/вызове 
+      -
+
+- type: entity
+  id: PaperRulesCity
+  name: Базовые законы города
+  noSpawn: true
+  suffix: Kelo
+  parent: Paper
+  components:
+  - type: Paper
+    content: |
+      Примечание: если срок более 60 минут, то человек отправляется на каторгу.                                                                                                                                                                статья 100 закона Коалиции. нападение (не убийство): карается сроком 10 минут тюрьмы, при повторном нарушении отправка на каторгу.
+
+
+      статья 102 закона коалиции. нелегальная торговля. для торговли требуется лицензия, если продается еда, напитки без лицензии тюремный срок 5 минут. если торговля оружием, наркотиками казнь
+
+      статья 103 закона коалиции. проникновение. проникновение в дома людей, шахты и так далее карается 10 минутным сроком тюрьмы. При повторном нарушении отправка на каторгу. Если проникновение в арсенал (оружейка полицаев) либо к администратору, то казнь.
+
+      статья 104 закона коалиции. особо крупное хищение. В это входит: оружие из арсенала, рабочее снаряжение шахтеров или иных должностей и так далее. При нарушении-казнь.
+      статья 101 закона Коалиции. мелкая кража, в это входит: кража из столовой либо же бара и так далее. При нарушении выдается тюремный срок 8 минут.
+
+      статья 105 закона коалиции. оскорбления в сторону должностных лиц. Должностными лицами являются: администратор, представители СГП, солдаты и богачи. При нарушении-казнь. В исключение входят богачи и СГП. За их оскорбление-тюремный срок 10 минут
+
+      статья 108 закона коалиции. владение боевым оружием. карается каторгой
+
+      статья 109 закона коалиции. хулиганство. хулиганством считается битие стаканов в баре, раскидывание едой и так далее. За нарушение тюремный срок 8 минут, при повторном нарушении удваивается
+
+- type: entity
+  id: PaperLecenz
+  name: лицензия на торговлю
+  noSpawn: false
+  suffix: Kelo
+  parent: Paper
+  components:
+  - type: Paper
+    content: |
+      [color=#B50F1D]░░░░██████░░[/color]
+      [color=#B50F1D]░████░░░░░░░[/color]      [head=3]Бланк документа[/head]
+      [color=#B50F1D]░████░░░░░░░[/color]               [head=3]Coalition[/head]
+      [color=#B50F1D]░████░░░░░░░[/color]   [head=3]City «Paradise»[/bold]
+      [color=#B50F1D]░░░░███████░[/color]
+      =============================================
+
+      Название документа: лицензия для торговли и на оружие
+
+      =============================================
+
+      ФИО Составителя:
+      Краун Блэкбёрн
+      Работа Составителя:
+      сотрудник бюрократического департамента Региона
+
+      =============================================
+      Место для печатей
+    stampState: paper_stamp-syndicate
+    stampedBy:
+    - stampedName: ОДОБРЕНО
+      stampedColor: "#bb3232"
+
+- type: entity
+  id: ClothingNeckSolder
+  parent: ClothingNeckLawyerbadge
+  name: Жетон солдата
+  suffix: Kelo
+  description: Она сделана из самой дешевой стали
+  components:
+  - type: Sprite
+    sprite: /Uploaded/town/jetonsol.rsi
+
+- type: entity
+  id: Autolathe2
+  parent: BaseLathe
+  name: автолат
+  suffix: Kelo
+  description: It produces items using metal and glass.
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/autolathe.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: AutolatheMachineCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Lathe
+    idleState: icon
+    runningState: building
+    staticRecipes:
+      - DrinkGlass
+      - Welder
+      - Wrench
+      - Crowbar
+      - Pickaxe
+      - SheetRGlass
+      - Beaker
+      - Syringe
+      - LightTube
+      - SodiumLightTube
+      - ExteriorLightTube
+      - LightBulb
+      - Bucket
+      - ModularReceiver
+      - FoodPlate
+      - FoodPlateSmall
+      - FoodPlatePlastic
+      - FoodPlateSmallPlastic
+      - SprayBottle
+      - PowerCellSmall
+      - VehicleWheelchairFolded
+      - RollerBedSpawnFolded
+      - CheapRollerBedSpawnFolded
+      - EmergencyRollerBedSpawnFolded
+      - MicroManipulatorStockPart
+      - MatterBinStockPart
+      - CapacitorStockPart
+      - ConveyorBeltAssembly
+      - IntercomElectronics
+      - FirelockElectronics
+      - DoorElectronics
+      - AirAlarmElectronics
+      - StationMapElectronics
+      - FireAlarmElectronics
+      - MailingUnitElectronics
+      - SignalTimerElectronics
+      - APCElectronics
+      - SMESMachineCircuitboard
+      - SubstationMachineCircuitboard
+      - CellRechargerCircuitboard
+      - BorgChargerCircuitboard
+      - WeaponCapacitorRechargerCircuitboard
+      - ClothingReduni
+      - ClothingUniformJumpsuitDetective
+
+- type: latheRecipe
+  id: ClothingReduni
+  result: ClothingReduni
+  completetime: 10
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitDetective
+  result: ClothingUniformJumpsuitDetective
+  completetime: 10
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: RifleStock
+  result: RifleStock
+  completetime: 10
+  materials:
+    WoodPlank: 600
+
+- type: soundCollection
+  id: MaleLaugh
+  files:
+    - /Uploaded/town/emotes/laugh/bum_laugh2.ogg
+    - /Uploaded/town/emotes/laugh/harris_laugh_01.ogg
+    - /Uploaded/town/emotes/laugh/harris_laugh_02.ogg
+    - /Uploaded/town/emotes/laugh/harris_laugh_03.ogg
+    - /Uploaded/town/emotes/laugh/harris_laugh_04.ogg
+    - /Uploaded/town/emotes/laugh/harris_laugh_05.ogg
+    - /Uploaded/town/emotes/laugh/harris_laugh_07.ogg
+    - /Uploaded/town/emotes/laugh/leg_laugh3.ogg
+    - /Uploaded/town/emotes/laugh/leg_laugh4.ogg
+    - /Uploaded/town/emotes/laugh/leg_laugh5.ogg
+    - /Uploaded/town/emotes/laugh/leg_laugh6.ogg
+
+- type: soundCollection
+  id: MaleScreams
+  files:
+    - /Uploaded/town/emotes/screamM/terror_scream2.ogg
+    - /Uploaded/town/emotes/screamM/terror_scream3.ogg
+    - /Uploaded/town/emotes/screamM/male_torture_scream2.ogg
+    - /Uploaded/town/emotes/screamM/male_torture_scream4.ogg
+
+- type: entity
+  parent: ComputerComms
+  id: ComsCiti
+  suffix: Kelo
+  name: консоль связи
+  components:
+    - type: AccessReader
+      access: [[ "Command" ]]
+    - type: CommunicationsConsole
+      title: губернатор
+      global: true
+      sound:
+        path: /Audio/Announcements/announce
+        params:
+          volume: -4

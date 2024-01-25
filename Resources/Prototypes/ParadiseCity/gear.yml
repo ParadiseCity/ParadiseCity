@@ -1,0 +1,201 @@
+#Garrison
+- type: startingGear
+  id: RedComendant
+  equipment:
+    jumpsuit: ClothingReduni
+    head: ClothingHeadCapCommandK
+    neck: ClothingNeckSolder
+    ears: ClothingHeadsetElite
+    outerClothing: ClothingOuterVestRedCommandant
+    gloves: ClothingHandsGlovesColorBlack
+    back: ClothingBackpackSoldiers
+    eyes: ClothingEyesGlassesSunglasses
+    belt: ClothingBeltSecurityFilled
+    shoes: ClothingShoesSwat
+    pocket1: PaperTencodesC
+    pocket2: PaperRulesCity
+    id: PasportComendant
+
+- type: startingGear
+  id: RedInspector
+  equipment:
+    jumpsuit: ClothingReduni
+    neck: ClothingNeckSolder
+    head: ClothingHeadCapCommandK
+    ears: ClothingHeadsetPSC
+    outerClothing: ClothingOuterVestRed
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSoldiers
+    eyes: ClothingEyesGlassesSunglasses
+    belt: ClothingBeltSecurityFilled
+    shoes: ClothingShoesSwat
+    pocket1: PaperRulesCity
+    pocket2: PaperTencodesC
+    id: PasportInspector
+
+- type: startingGear
+  id: RedSoldier
+  equipment:
+    jumpsuit: ClothingReduni
+    neck: ClothingNeckSolder
+    head: ClothingHeadHelmetRed
+    ears: ClothingHeadsetPSC
+    outerClothing: ClothingOuterVestRed
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSoldiers
+    belt: ClothingBeltSalvageWebbing
+    shoes: ClothingShoesBootsSalvage
+    pocket1: PaperRulesCity
+    pocket2: PaperTencodesC
+    id: PasportMirotvorec
+
+- type: startingGear
+  id: RedKadet
+  equipment:
+    jumpsuit: ClothingReduni
+    neck: ClothingNeckSolder
+    head: ClothingHeadHatBeret
+    ears: ClothingHeadsetPSC
+    gloves: ClothingHandsGlovesColorBlack
+    back: ClothingBackpackCadet
+    belt: Truncheon
+    shoes: ClothingShoesBootsSalvage
+    pocket1: PaperRulesCity
+    pocket2: PaperTencodesC
+    id: PasportMirotvorec
+
+#Administratum
+- type: startingGear
+  id: BurHead
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    head: ClothingHeadHatTophat
+    ears: ClothingHeadsetElite
+    neck: ClothingNeckHorrific
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsLaceup
+    pocket1: SpaceCash10000
+    id: PasportBurHead
+
+- type: startingGear
+  id: Burocrate
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    ears: ClothingHeadsetElite
+    neck: ClothingNeckHorrific
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsLaceup
+    pocket1: SpaceCash5000
+    id: PasportBur
+
+#Citizen
+- type: startingGear
+  id: Repor
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJournalist
+    head: ClothingHeadHatFedoraBrown
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsLaceup
+    pocket1: SpaceCash500
+    id: PasportReporter
+
+- type: startingGear
+  id: Redcitizen
+  equipment:
+    jumpsuit: ClothingCiticlothe
+    head: ClothingHeadUshankaK
+    outerClothing: ClothingOuterCoatJensen
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsSalvage
+    pocket1: SpaceCash500
+    id: Pasport
+
+
+- type: startingGear
+  id: RedVladelec
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBartender
+    outerClothing: ClothingOuterApronChef
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsSalvage
+    pocket1: SpaceCash1000
+    pocket2: PaperLecenz
+    id: PasportVladelec
+
+#Factory
+- type: startingGear
+  id: Redbrig
+  equipment:
+    jumpsuit: ClothingWorkeruni
+    outerClothing: ClothingOuterCoatBomber
+    head: ClothingHeadCapWorker
+    ears: ClothingHeadsetFabrika
+    gloves: ClothingHandsGlovesColorBrown
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsSalvage
+    belt: ClothingBeltUtilityFilled
+    pocket1: SpaceCash500
+    id: PasportBrig
+
+- type: startingGear
+  id: Redworker
+  equipment:
+    jumpsuit: ClothingWorkeruni
+    outerClothing: ClothingOuterworkercoat
+    head: ClothingHeadHelmetWorkerK
+    ears: ClothingHeadsetFabrika
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsSalvage
+    pocket1: SpaceCash500
+    id: PasportMiner
+
+- type: startingGear
+  id: RedMiner
+  equipment:
+    jumpsuit: ClothingMinerUni
+    head: ClothingHeadHardKaska
+    ears: ClothingHeadsetFabrika
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsSalvage
+    belt: ClothingBeltSalvageWebbing
+    pocket1: SpaceCash500
+    id: PasportMiner
+
+#Hospital
+- type: startingGear
+  id: BossFelialMM
+  equipment:
+    jumpsuit: ClothingAdminstatorUni
+    mask: ClothingMaskSterile
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesColorWhite
+    pocket1: SpaceCash5000
+    id: PasportPMM
+
+- type: startingGear
+  id: RedChemic
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChemistry
+    outerClothing: ClothingOuterCoatLabChem
+    mask: ClothingMaskSterile
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesColorWhite
+    pocket1: SpaceCash1000
+    id: Pasportchemical
+
+- type: startingGear
+  id: RedLekar
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    mask: ClothingMaskSterile
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesColorWhite
+    pocket1: SpaceCash1000
+    id: PasportLekar

@@ -1,0 +1,262 @@
+- type: entity
+  parent: PasportID
+  id: Pasportworker
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Maintenance
+
+- type: entity
+  parent: PasportID
+  id: PasportReporter
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Theatre
+
+- type: entity
+  parent: PasportID
+  id: PasportMiner
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Salvage
+    - Maintenance
+
+- type: entity
+  parent: PasportID
+  id: PasportBrig
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Salvage
+    - Maintenance
+
+- type: entity
+  parent: PasportID
+  id: Pasport
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+
+- type: entity
+  parent: PasportID
+  id: PasportVladelec
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Service
+    - Bar
+    - Kitchen
+
+- type: entity
+  parent: PasportID
+  id: Pasportchemical
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Medical
+    - Chemistry
+
+- type: entity
+  parent: PasportID
+  id: PasportLekar
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Medical
+
+- type: entity
+  parent: PasportID
+  id: PasportComendant
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - HeadOfSecurity
+    - Command
+    - Brig
+    - Security
+    - Armory
+    - Maintenance
+    - Service
+    - External
+    - Detective
+
+- type: entity
+  parent: PasportID
+  id: PasportAdministrator
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - AllAccess
+
+- type: entity
+  parent: PasportID
+  id: PasportInspector
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Brig
+    - Security
+    - Armory
+    - Maintenance
+    - External
+    - Detective
+
+- type: entity
+  parent: PasportID
+  id: PasportMirotvorec
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Brig
+    - Security
+    - Maintenance
+    - External
+ 
+- type: entity
+  parent: PasportID
+  id: PasportBur
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Command
+    - HeadOfPersonnel
+    - Bar
+    - Service
+    - Maintenance
+    - Janitor
+    - Theatre
+    - Kitchen
+    - Chapel
+    - Hydroponics
+    - External
+
+- type: entity
+  parent: PasportID
+  id: PasportPMM
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Command
+    - ChiefMedicalOfficer
+    - Medical
+    - Chemistry
+
+- type: entity
+  parent: PasportID
+  id: PasportBurHead
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Command
+    - HeadOfPersonnel
+    - Bar
+    - Service
+    - Maintenance
+    - Janitor
+    - Theatre
+    - Kitchen
+    - Chapel
+    - Hydroponics
+    - External
+    - Quartermaster
+
+- type: entity
+  parent: Clothing
+  id: PasportID
+  name: Паспорт
+  description: Паспорт граждан великов Коалиции!
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    size: Small
+    heldPrefix: default
+    storedRotation: -90
+  - type: Access
+  - type: IdCard
+  - type: StationRecordKeyStorage
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: StealTarget
+    stealGroup: IDCard
