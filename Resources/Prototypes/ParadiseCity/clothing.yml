@@ -1,0 +1,260 @@
+- type: entity
+  parent: ClothingHeadHelmetMerc
+  id: ClothingHeadHelmetRed
+  name: Каска
+  suffix: Kelo
+  description: Обычная каска
+  components:
+  - type: Sprite
+    sprite: /town/head/redh.rsi
+  - type: Clothing
+    sprite: /town/head/redh.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingHeadHelmetMerc
+  id: ClothingHeadHelmetWorkerK
+  name: бандана
+  suffix: Kelo
+  description: грязная ткань.
+  components:
+  - type: Sprite
+    sprite: /town/head/bandana.rsi
+  - type: Clothing
+    sprite: /town/head/bandana.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetMerc
+  id: ClothingHeadHardKaska
+  name: Каска
+  suffix: Kelo
+  description: Обычная каска
+  components:
+  - type: Sprite
+    sprite: /town/head/hardhat.rsi
+  - type: Clothing
+    sprite: /town/head/hardhat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.97
+        Slash: 0.97
+        Piercing: 0.97
+
+- type: entity
+  parent: ClothingOuterCoatBomber
+  id: ClothingOuterVestRedCommandant
+  name: куртка
+  suffix: Kelo
+  description: сделано из самого дорого материала, стоп внутри сталь?
+  components:
+  - type: Sprite
+    sprite: /town/coats/coatcom.rsi
+  - type: Clothing
+    sprite: /town/coats/coatcom.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+
+- type: entity
+  parent: ClothingOuterCoatBomber
+  id: ClothingOuterVestRed
+  name: куртка солдата
+  suffix: Kelo
+  description: сделано из самой дешевой ткани, стоп внутри сталь?
+  components:
+  - type: Sprite
+    sprite: /town/coats/redcoat.rsi
+  - type: Clothing
+    sprite: /town/coats/redcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+
+- type: entity
+  parent: ClothingOuterCoatBomber
+  id: ClothingOuterworkercoat
+  name: фартук рабочего
+  suffix: Kelo
+  description: сделано из самой дешевой ткани.
+  components:
+  - type: Sprite
+    sprite: /town/coats/workercoat.rsi
+  - type: Clothing
+    sprite: /town/coats/workercoat.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitOperative
+  id: ClothingCiticlothe
+  name: одежда
+  suffix: Kelo
+  description: Она сделана из самой дешевой ткани.
+  components:
+    - type: Sprite
+      sprite: /town/suits/citiclothe.rsi
+    - type: Clothing
+      sprite: /town/suits/citiclothe.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitOperative
+  id: ClothingReduni
+  name: униформа класса RED
+  suffix: Kelo
+  description: Она сделана из самой дешевой ткани.
+  components:
+    - type: Sprite
+      sprite: /town/suits/reduni.rsi
+    - type: Clothing
+      sprite: /town/suits/reduni.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitOperative
+  id: ClothingWorkeruni
+  name: рабочая одежда
+  suffix: Kelo
+  description: Она сделана из самой дешевой ткани.
+  components:
+    - type: Sprite
+      sprite: town/suits/worker.rsi
+    - type: Clothing
+      sprite: town/suits/worker.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitOperative
+  id: ClothingMinerUni
+  name: одежда шахтёра
+  suffix: Kelo
+  description: Она сделана из самой дешевой ткани.
+  components:
+    - type: Sprite
+      sprite: town/suits/mineruni.rsi
+    - type: Clothing
+      sprite: town/suits/mineruni.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitOperative
+  id: ClothingAdminstatorUni
+  name: деловая униформа
+  suffix: Kelo
+  description: Она сделана из не самой дешевой ткани.
+  components:
+    - type: Sprite
+      sprite: town/suits/admistrator.rsi
+    - type: Clothing
+      sprite: town/suits/admistrator.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitOperative
+  id: ClothingCommanduniK
+  name: униформа класса дворянин
+  suffix: Kelo
+  description: Она сделана из не самой дешевой ткани.
+  components:
+    - type: Sprite
+      sprite: town/suits/command.rsi
+    - type: Clothing
+      sprite: town/suits/command.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetMerc
+  id: ClothingHeadUshankaK
+  name: Ушанка
+  suffix: Kelo
+  description: Сделана очень даже неплохо.
+  components:
+  - type: Sprite
+    sprite: town/head/ushanka.rsi
+  - type: Clothing
+    sprite: town/head/ushanka.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetMerc
+  id: ClothingHeadCapWorker
+  name: Кепка
+  suffix: Kelo
+  description: Сделана очень даже неплохо.
+  components:
+  - type: Sprite
+    sprite: town/head/capwork.rsi
+  - type: Clothing
+    sprite: town/head/capwork.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetMerc
+  id: ClothingHeadCapCommandK
+  name: Фуражка
+  suffix: Kelo
+  description: Фуражка очень властного человека.
+  components:
+  - type: Sprite
+    sprite: town/head/capcap.rsi
+  - type: Clothing
+    sprite: town/head/capcap.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskbalaclava
+  name: балаклава
+  suffix: Kelo
+  description: она очень не удобная!
+  components:
+  - type: Sprite
+    sprite: town/masks/balaclava.rsi
+  - type: Clothing
+    sprite: town/masks/balaclava.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  name: кожаная сумка
+  parent: ClothingBackpackSatchelLeather
+  id: ClothingBackpackCadet
+  components:
+    - type: StorageFill
+      contents:
+        - id: ClothingMaskbalaclava
+
+- type: entity
+  name: кожаная сумка
+  parent: ClothingBackpackSatchelLeather
+  id: ClothingBackpackSoldiers
+  components:
+    - type: StorageFill
+      contents:
+        - id: ClothingGasMacksSOl
+        - id: SpaceCash500
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingGasMacksSOl
+  name: противогаз
+  suffix: Kelo
+  description: По всей видомости это противогаз класса P.I.Z.D.E.C.
+  components:
+    - type: Sprite
+      sprite: town/masks/oldgasmasks.rsi
+    - type: Clothing
+      sprite: town/masks/oldgasmasks.rsi
