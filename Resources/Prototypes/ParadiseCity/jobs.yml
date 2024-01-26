@@ -6,19 +6,3 @@
   startingGear: Redcitizen
   icon: "JobIconPassenger"
   supervisors: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!
-
-- type: job
-  id: JobCommandante
-  name: Комендант
-  description: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!
-  playTimeTracker: JobPassenger
-  startingGear: RedComendant
-  icon: "JobIconPassenger"
-  supervisors: Губернатору
-
-- type: department
-  id: Garrison
-  description: Защищать богатых людей это блять наша работа!
-  color: "#DE3A3A"
-  roles:
-  - JobCommandante
