@@ -6,3 +6,12 @@
   startingGear: Redcitizen
   icon: "JobIconPassenger"
   supervisors: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!
+
+- type: job
+  id: Passenger2
+  name: Комендант
+  description: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!
+  playTimeTracker: JobPassenger
+  startingGear: RedComendant
+  icon: "JobIconPassenger"
+  supervisors: Губернатору
