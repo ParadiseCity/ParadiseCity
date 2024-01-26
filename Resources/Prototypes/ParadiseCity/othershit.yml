@@ -72,7 +72,7 @@
   description: Она сделана из самой дешевой стали
   components:
   - type: Sprite
-    sprite: /Uploaded/town/jetonsol.rsi
+    sprite: town/neck/jetonsol.rsi
 
 - type: entity
   id: Autolathe2
@@ -175,25 +175,25 @@
 - type: soundCollection
   id: MaleLaugh
   files:
-    - /Audio/town/emotes/laugh/bum_laugh2.ogg
-    - /Audio/town/emotes/laugh/harris_laugh_01.ogg
-    - /Audio/town/emotes/laugh/harris_laugh_02.ogg
-    - /Audio/town/emotes/laugh/harris_laugh_03.ogg
-    - /Audio/town/emotes/laugh/harris_laugh_04.ogg
-    - /Audio/town/emotes/laugh/harris_laugh_05.ogg
-    - /Audio/town/emotes/laugh/harris_laugh_07.ogg
-    - /Audio/town/emotes/laugh/leg_laugh3.ogg
-    - /Audio/town/emotes/laugh/leg_laugh4.ogg
-    - /Audio/town/emotes/laugh/leg_laugh5.ogg
-    - /Audio/town/emotes/laugh/leg_laugh6.ogg
+    - Audio/town/emotes/laugh/bum_laugh2.ogg
+    - Audio/town/emotes/laugh/harris_laugh_01.ogg
+    - Audio/town/emotes/laugh/harris_laugh_02.ogg
+    - Audio/town/emotes/laugh/harris_laugh_03.ogg
+    - Audio/town/emotes/laugh/harris_laugh_04.ogg
+    - Audio/town/emotes/laugh/harris_laugh_05.ogg
+    - Audio/town/emotes/laugh/harris_laugh_07.ogg
+    - Audio/town/emotes/laugh/leg_laugh3.ogg
+    - Audio/town/emotes/laugh/leg_laugh4.ogg
+    - Audio/town/emotes/laugh/leg_laugh5.ogg
+    - Audio/town/emotes/laugh/leg_laugh6.ogg
 
 - type: soundCollection
   id: MaleScreams
   files:
-    - /Audio/town/emotes/screamM/terror_scream2.ogg
-    - /Audio/town/emotes/screamM/terror_scream3.ogg
-    - /Audio/town/emotes/screamM/male_torture_scream2.ogg
-    - /Audio/town/emotes/screamM/male_torture_scream4.ogg
+    - Audio/town/emotes/screamM/terror_scream2.ogg
+    - Audio/town/emotes/screamM/terror_scream3.ogg
+    - Audio/town/emotes/screamM/male_torture_scream2.ogg
+    - Audio/town/emotes/screamM/male_torture_scream4.ogg
 
 - type: entity
   parent: ComputerComms
