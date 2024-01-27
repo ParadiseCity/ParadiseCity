@@ -149,18 +149,10 @@
       - BorgChargerCircuitboard
       - WeaponCapacitorRechargerCircuitboard
       - ClothingReduni
-      - ClothingUniformJumpsuitDetective
 
 - type: latheRecipe
   id: ClothingReduni
   result: ClothingReduni
-  completetime: 10
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
-  id: ClothingUniformJumpsuitDetective
-  result: ClothingUniformJumpsuitDetective
   completetime: 10
   materials:
     Cloth: 300
