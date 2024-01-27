@@ -1,8 +1,17 @@
 - type: soundCollection
   id: MaleLaugh
   files:
-    - /Audio/Voice/Human/manlaugh1.ogg
-    - /Audio/Voice/Human/manlaugh2.ogg
+    - /Audio/town/emotes/laugh/bum_laugh2.ogg
+    - /Audio/town/emotes/laugh/harris_laugh_01.ogg
+    - /Audio/town/emotes/laugh/harris_laugh_02.ogg
+    - /Audio/town/emotes/laugh/harris_laugh_03.ogg
+    - /Audio/town/emotes/laugh/harris_laugh_04.ogg
+    - /Audio/town/emotes/laugh/harris_laugh_05.ogg
+    - /Audio/town/emotes/laugh/harris_laugh_07.ogg
+    - /Audio/town/emotes/laugh/leg_laugh3.ogg
+    - /Audio/town/emotes/laugh/leg_laugh4.ogg
+    - /Audio/town/emotes/laugh/leg_laugh5.ogg
+    - /Audio/town/emotes/laugh/leg_laugh6.ogg
 
 - type: soundCollection
   id: FemaleLaugh
