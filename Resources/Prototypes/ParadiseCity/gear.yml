@@ -13,7 +13,6 @@
     belt: ClothingBeltSecurityFilled
     shoes: ClothingShoesSwat
     pocket1: PaperTencodesC
-    pocket2: PaperRulesCity
     id: PasportComendant
 
 - type: startingGear
@@ -29,7 +28,6 @@
     eyes: ClothingEyesGlassesSunglasses
     belt: ClothingBeltSecurityFilled
     shoes: ClothingShoesSwat
-    pocket1: PaperRulesCity
     pocket2: PaperTencodesC
     id: PasportInspector
 
@@ -45,7 +43,6 @@
     back: ClothingBackpackSoldiers
     belt: ClothingBeltSalvageWebbing
     shoes: ClothingShoesBootsSalvage
-    pocket1: PaperRulesCity
     pocket2: PaperTencodesC
     id: PasportMirotvorec
 
@@ -60,7 +57,6 @@
     back: ClothingBackpackCadet
     belt: Truncheon
     shoes: ClothingShoesBootsSalvage
-    pocket1: PaperRulesCity
     pocket2: PaperTencodesC
     id: PasportMirotvorec
 
