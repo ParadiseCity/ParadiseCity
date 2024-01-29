@@ -236,6 +236,32 @@
     - Quartermaster
 
 - type: entity
+  parent: PasportID
+  id: PasportDrugDiller
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: /Uploaded/town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - External
+
+- type: entity
+  parent: PasportID
+  id: PasportMizero
+  name: Паспорт
+  components:
+  - type: Sprite
+    sprite: /Uploaded/town/pasports/pasport.rsi
+    layers:
+    - state: default
+  - type: Access
+    tags:
+    - Janitor
+
+- type: entity
   parent: Clothing
   id: PasportID
   name: Паспорт
