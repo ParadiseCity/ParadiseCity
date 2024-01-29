@@ -86,6 +86,31 @@
 
 #Citizen
 - type: startingGear
+  id: RedDrugDiller
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSuperstarCop
+    mask: ClothingMaskGasExplorer
+    outerClothing: ClothingOuterCoatInspector
+    gloves: ClothingHandsGlovesFingerless
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesAerostatic
+    pocket1: SpaceCash1000
+    id: PasportDrugDiller
+
+- type: startingGear
+  id: RedJanitor
+  equipment:
+    jumpsuit: ClothingCiticlothe
+    head: ClothingHeadHatHoodBioJanitor
+    outerClothing: ClothingOuterBioJanitor
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackSatchelLeather
+    belt: ClothingBeltJanitorFilled
+    shoes: ClothingShoesAerostatic
+    pocket1: SpaceCash100
+    id: PasportMizero
+
+- type: startingGear
   id: Repor
   equipment:
     jumpsuit: ClothingUniformJumpsuitJournalist
