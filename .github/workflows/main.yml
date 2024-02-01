@@ -18,9 +18,9 @@ jobs:
     - name: check if need to update
       uses: appleboy/ssh-action@master
       with:
-        host: cdn.backmen.ru
+        host: 141.105.69.208
         username: buildbot
-        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
+        key: ${{ secrets.PCG }}
         script: |
           if [ -d "/opt/builds_marines/${{ github.sha }}" ]
           then
@@ -71,9 +71,9 @@ jobs:
     - name: Upload files to backmen
       uses: appleboy/scp-action@master
       with:
-        host: cdn.backmen.ru
+        host: 141.105.69.208
         username: buildbot
-        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
+        key: ${{ secrets.PCG }}
         source: "release/${{ github.sha }}"
         target: "/opt/builds_marines/"
         strip_components: 1
@@ -82,15 +82,15 @@ jobs:
     - name: Update cdn
       uses: appleboy/ssh-action@master
       with:
-        host: cdn.backmen.ru
+        host: 141.105.69.208
         username: buildbot
-        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
+        key: ${{ secrets.PCG }}
         script: "curl -X POST -d \"\" -H 'Authorization: Bearer ${{ secrets.CDN_TOKEN }}' http://localhost:5002/control/update"
 
     - name: Update manifest JSON
       uses: appleboy/ssh-action@master
       with:
-        host: cdn.backmen.ru
+        host: 141.105.69.208
         username: buildbot
-        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
+        key: ${{ secrets.PCG }}
         script: "python3 /opt/push-marine.py"
