@@ -22,10 +22,10 @@ jobs:
         username: buildbot
         key: ${{ secrets.PCG }}
         script: |
-          if [ -d "/opt/builds_marines/${{ github.sha }}" ]
+          if [ -d "/ParadiseCity/ParadiseCity/${{ github.sha }}" ]
           then
-              echo "Directory /opt/builds_marines/${{ github.sha }} exists."
-              throw "Error: Directory /opt/builds_marines/${{ github.sha }} exists."
+              echo "Directory /ParadiseCity/ParadiseCity/${{ github.sha }} exists."
+              throw "Error: Directory /ParadiseCity/ParadiseCity/${{ github.sha }} exists."
           fi
 
     - name: Install dependencies
@@ -75,7 +75,7 @@ jobs:
         username: buildbot
         key: ${{ secrets.PCG }}
         source: "release/${{ github.sha }}"
-        target: "/opt/builds_marines/"
+        target: "/ParadiseCity/ParadiseCity/"
         strip_components: 1
         tar_tmp_path: "/tmp/"
 
