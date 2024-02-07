@@ -1,5 +1,5 @@
 - type: job
-  id: Passenger
+  id: Citizen
   name: Гражданин
   description: Вы гражданин великой Коалиции. Зарабойте деньги любыми способами, чтобы свалить с этого города. СЛАВА КОАЛИЦИИ!
   playTimeTracker: JobPassenger
