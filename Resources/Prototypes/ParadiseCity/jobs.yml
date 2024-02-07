@@ -1,3 +1,10 @@
+- type: department
+  id: Citizens
+  description: department-Civilian-description
+  color: "#9FED58"
+  roles:
+  - Citizen
+
 - type: job
   id: Citizen
   name: Гражданин
