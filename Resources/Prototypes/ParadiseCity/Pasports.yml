@@ -61,6 +61,8 @@
     sprite: town/pasports/pasport.rsi
     layers:
     - state: default
+  - type: PresetIdCard
+    job: Citizen
 
 - type: entity
   parent: PasportID
