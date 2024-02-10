@@ -1,40 +1,40 @@
 - type: speechSounds
   id: Bass
   saySound:
-    path: Audio/town/speech/speechT.ogg
+    path: /Audio/town/speech/speechT.ogg
   askSound:
-    path: Audio/town/speech/speechA.ogg
+    path: /Audio/town/speech/speechA.ogg
   exclaimSound:
-    path: Audio/town/speech/speechS.ogg
+    path: /Audio/town/speech/speechS.ogg
 
 - type: speechSounds
   id: Baritone
   saySound:
-    path: Audio/town/speech/speechT.ogg
+    path: /Audio/town/speech/speechT.ogg
   askSound:
-    path: Audio/town/speech/speechA.ogg
+    path: /Audio/town/speech/speechA.ogg
   exclaimSound:
-    path: Audio/town/speech/speechS.ogg
+    path: /Audio/town/speech/speechS.ogg
 
 - type: speechSounds
   id: Tenor
   saySound:
-    path: Audio/town/speech/speechT.ogg
+    path: /Audio/town/speech/speechT.ogg
   askSound:
-    path: Audio/town/speech/speechA.ogg
+    path: /Audio/town/speech/speechA.ogg
   exclaimSound:
-    path: Audio/town/speech/speechS.ogg
+    path: /Audio/town/speech/speechS.ogg
 
 - type: speechSounds
   id: Alto
   saySound:
   saySound:
-    path: Audio/town/speech/speechT.ogg
+    path: /Audio/town/speech/speechT.ogg
   askSound:
-    path: Audio/town/speech/speechA.ogg
+    path: /Audio/town/speech/speechA.ogg
   exclaimSound:
-    path: Audio/town/speech/speechS.ogg
-
+    path: /Audio/town/speech/speechS.ogg
+    
 - type: speechSounds
   id: Squeak
   saySound:
