@@ -243,7 +243,7 @@
   name: Паспорт
   components:
   - type: Sprite
-    sprite: /Uploaded/town/pasports/pasport.rsi
+    sprite: town/pasports/pasport.rsi
     layers:
     - state: default
   - type: Access
@@ -256,7 +256,7 @@
   name: Паспорт
   components:
   - type: Sprite
-    sprite: /Uploaded/town/pasports/pasport.rsi
+    sprite: town/pasports/pasport.rsi
     layers:
     - state: default
   - type: Access
